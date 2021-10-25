@@ -1,0 +1,896 @@
+<!DOCTYPE HTML>
+<html>
+	{% load static %}
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tejendra Patel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link rel="icon" href="{% static 'images/tt.png' %}" type="image/gif" sizes="16x16">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="{% static 'css/flexslider.css' %}">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css' %}">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+	<!-- Modernizr JS -->
+	<script src="{% static 'js/modernizr-2.6.2.min.js' %}"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="{% static 'js/respond.min.js' %}"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="{% static 'js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url({% static 'images/tezz.jpg' %});"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Tejendra Patel</a></h1>
+				<span class="position"><a href="#">Web Developer</a> in Python</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>
+<!--						<li><a href="#" data-nav-section="services">Services</a></li>-->
+						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="work">Work</a></li>
+<!--						<li><a href="#" data-nav-section="blog">Blog</a></li>-->
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="colorlib-footer">
+				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Developed <i class="" aria-hidden="true"></i> by <a href="" target="_blank">Tejendra Patel</a></small></p>
+				<ul>
+					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a href="#"><i class="icon-twitter2"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="{% static 'js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url({% static 'images/blo.jpg' %});">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1 style="color:#fff;text-shadow: 2px 2px 7px black;">Hi! <br>I'm Tejendra</h1>
+<!--						   					<h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>-->
+													<a href="{% static 'resume/tejendra.pdf' %}" download="{% static 'resume/tejendra.pdf' %}" class="btn btn-primary btn-learn" ><p>Download Resume<i class="icon-download4"></i></p></a>
+
+											</div>
+
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background-image: url({% static 'images/blo.jpg' %});">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<div class="desc">
+						   					<h1 style="color:#fff;text-shadow: 2px 2px 7px black;">I am <br>a Web Developer</h1>
+<!--												<h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>-->
+												<a href="{% static 'resume/tejendra.pdf' %}" download="{% static 'resume/tejendra.pdf' %}" class="btn btn-primary btn-learn" ><p>Download Resume<i class="icon-download4"></i></p></a>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</section>
+
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About Us</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p style="text-align: justify;" >Experienced Software Engineer with a demonstrated history of working in the information technology and Software industry. Skilled in Python, Django, React, Docker, Git, Jira, Agile, Html, CSS, JS , and AWS Cloud Services. Strong engineering professional with a Bachelor of Engineering (BE) focused in Computer Science engineering from Trinity Institute of Technology and research Bhopal.</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-1">
+										<span class="icon2"><img src="{% static 'images/graphic.png' %}" style="width:35%"> </span>
+										<h3>Web Design</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+									<div class="services color-2">
+										<span class="icon2"><img src="{% static 'images/web.png' %}" style="width:35%"> </span>
+										<h3>Web Develop</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+									<div class="services color-3">
+										<span class="icon2"><img src="{% static 'images/data.png' %}" style="width:35%"> </span>
+										<h3>DB Management</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><img src="{% static 'images/apis.png' %}" style="width:35%"> </span>
+										<h3>API Integration</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><img src="{% static 'images/aws2.png' %}" style="width:55%"> </span>
+										<h3>AWS</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-3">
+										<span class="icon2"><img src="{% static 'images/docker.png' %}" style="width:60%"> </span>
+										<h3>Docker</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-2">
+										<span class="icon2"><img src="{% static 'images/git.png' %}" style="width:55%"> </span>
+										<h3>Git</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-1">
+										<span class="icon2"><img src="{% static 'images/jira.png' %}" style="width:35%"> </span>
+										<h3>Jira</h3>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="hire">
+										<h2 style="font-size:40px;font-weight:600; text-shadow: 2px 2px 4px #c20000;" > Can I Help</h2><h2 style="margin-left:200px;font-size:40px;font-weight:600; text-shadow: 2px 2px 4px #c20000;">YOU!</h2>
+										<a href="#contact" class="btn-hire" style="margin-left:400px; text-shadow: 2px 2px 4px #c20000;">Hire me</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			
+<!--			<section class="colorlib-services" data-section="services">-->
+<!--				<div class="colorlib-narrow-content">-->
+<!--					<div class="row">-->
+<!--						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">-->
+<!--							<span class="heading-meta">What I do?</span>-->
+<!--							<h2 class="colorlib-heading">Here are some of my expertise</h2>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="row row-pt-md">-->
+<!--						<div class="col-md-4 text-center animate-box">-->
+<!--							<div class="services color-1">-->
+<!--								<span class="icon">-->
+<!--									<i class="icon-bulb"></i>-->
+<!--								</span>-->
+<!--								<div class="desc">-->
+<!--									<h3>Innovative Ideas</h3>-->
+<!--									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="col-md-4 text-center animate-box">-->
+<!--							<div class="services color-2">-->
+<!--								<span class="icon">-->
+<!--									<i class="icon-data"></i>-->
+<!--								</span>-->
+<!--								<div class="desc">-->
+<!--									<h3>Software</h3>-->
+<!--									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="col-md-4 text-center animate-box">-->
+<!--							<div class="services color-3">-->
+<!--								<span class="icon">-->
+<!--									<i class="icon-phone3"></i>-->
+<!--								</span>-->
+<!--								<div class="desc">-->
+<!--									<h3>Application</h3>-->
+<!--									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="col-md-4 text-center animate-box">-->
+<!--							<div class="services color-4">-->
+<!--								<span class="icon">-->
+<!--									<i class="icon-layers2"></i>-->
+<!--								</span>-->
+<!--								<div class="desc">-->
+<!--									<h3>Graphic Design</h3>-->
+<!--									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="col-md-4 text-center animate-box">-->
+<!--							<div class="services color-5">-->
+<!--								<span class="icon">-->
+<!--									<i class="icon-data"></i>-->
+<!--								</span>-->
+<!--								<div class="desc">-->
+<!--									<h3>Software</h3>-->
+<!--									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="col-md-4 text-center animate-box">-->
+<!--							<div class="services color-6">-->
+<!--								<span class="icon">-->
+<!--									<i class="icon-phone3"></i>-->
+<!--								</span>-->
+<!--								<div class="desc">-->
+<!--									<h3>Application</h3>-->
+<!--									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</section>-->
+			
+<!--			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url({% static 'images/cover_bg_1.jpg' %});" data-stellar-background-ratio="0.5">-->
+<!--				<div class="overlay"></div>-->
+<!--				<div class="colorlib-narrow-content">-->
+<!--					<div class="row">-->
+<!--					</div>-->
+<!--					<div class="row">-->
+<!--						<div class="col-md-3 text-center animate-box">-->
+<!--							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>-->
+<!--							<span class="colorlib-counter-label">Cups of coffee</span>-->
+<!--						</div>-->
+<!--						<div class="col-md-3 text-center animate-box">-->
+<!--							<span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>-->
+<!--							<span class="colorlib-counter-label">Projects</span>-->
+<!--						</div>-->
+<!--						<div class="col-md-3 text-center animate-box">-->
+<!--							<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>-->
+<!--							<span class="colorlib-counter-label">Clients</span>-->
+<!--						</div>-->
+<!--						<div class="col-md-3 text-center animate-box">-->
+<!--							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>-->
+<!--							<span class="colorlib-counter-label">Partners</span>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+
+			<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta"></span>
+							<h2 class="colorlib-heading animate-box">My Skills</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Python</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+								    <span>75%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Django</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+								    <span>85%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>HTML5</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+								    <span>75%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>CSS3</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>AWS</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="50"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Windows 7, 10 Basic</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="50"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
+								    <span>50%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Git</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+								    <span>75%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Docker</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
+								    <span>50%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Jira</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>React</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="50"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
+								    <span>50%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwos">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwos" aria-expanded="false" aria-controls="collapseTwo">Masters Degree of Computer Science
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwos" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwos">
+									        <div class="panel-body">
+												<ul>
+													<li><strong>INSTITUTION : - </strong> Technocrats Institute of Technology Bhopal </li>
+													<li><strong>UNIVERSITY : - </strong> R.G.P.V</li>
+												   <li><strong>YEAR OF PASSING : - </strong> 2023 </li>
+												</ul>
+									        </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body">
+												<ul>
+													<li><strong>INSTITUTION : - </strong> Trinity Institute Of Technology And Research Bhopal </li>
+													<li><strong>UNIVERSITY : - </strong> R.G.P.V</li>
+													<li><strong>CGPA : - </strong> 7.8% </li>
+												   <li><strong>YEAR OF PASSING : - </strong> 2021 </li>
+												</ul>
+									        </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingThree">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Higher Secondary Certificate
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									        <div class="panel-body">
+									           <ul>
+													<li><strong>INSTITUTION : - </strong> Queen Mary's Hr Sec School </li>
+													<li><strong>BOARD : - </strong> Madhya Pradesh Board</li>
+													<li><strong>PERCENTAGE : - </strong> 72% </li>
+												   <li><strong>YEAR OF COMPLETED : - </strong> 2017 </li>
+												</ul>
+									        </div>
+									    </div>
+									</div>
+
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingFour">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Secondary School Certificate
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+									        <div class="panel-body">
+									           <ul>
+													<li><strong>INSTITUTION : - </strong> Queen Mary's Hr Sec School </li>
+													<li><strong>BOARD : - </strong> Madhya Pradesh Board</li>
+													<li><strong>PERCENTAGE : - </strong> 76% </li>
+												   <li><strong>YEAR OF COMPLETED : - </strong> 2015 </li>
+												</ul>
+									        </div>
+									    </div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-4">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">Python Support Developer in Buzzart Software</a> <span>Dec 2021 - Present</span></h2>
+					                  <p>Currently Working As a Support Developer in Buzzartsoftware</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">Full Stack Developer at Vistaarwebx Company</a> <span>Dec 2020 - 2021</span></h2>
+					                  <p>Worked As a Python Django Developer and Frontend Developer in Vistaarwebx</p>
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Interned at Technex’19  IIT(BHU)</a> <span> 4 weeks </span></h2>
+					                  <p>Successfully Completed the 4 Weeks internship on Advanced Python and Django Development</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Interned at Techsim+ </a> <span> 5 weeks </span></h2>
+					                  <p>Successfully Completed the 5 Weeks internship on Advanced Python and Django Development</p>
+					               </div>
+					            </div>
+					         </article>
+
+
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+			<section class="colorlib-work" data-section="work">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<h2 class="colorlib-heading animate-box">My Work</h2>
+						</div>
+					</div>
+					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+					</div>
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url({% static 'images/pro.png' %});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://www.prospectias.in/">Prospectias</a></h3>
+										<span>www.prospectias.in</span>
+										<p class="icon">
+											<span><a href="#"><i class="fa fa-facebook"></i></a></span>
+											<span><a href="#"><i class="fa fa-twitter"></i></a></span>
+											<span><a href="#"><i class="fa fa-instagram"></i></a></span>
+											<span><a href="#"><i class="fa fa-linkedin"></i></a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url({% static 'images/vis.png' %});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://www.vistaarwebx.com/">VistaarwebX</a></h3>
+										<span>www.vistaarwebx.com</span>
+										<p class="icon">
+											<span><a href="#"><i class="fa fa-facebook"></i></a></span>
+											<span><a href="#"><i class="fa fa-twitter"></i></a></span>
+											<span><a href="#"><i class="fa fa-instagram"></i></a></span>
+											<span><a href="#"><i class="fa fa-linkedin"></i></a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url({% static 'images/rajj.png' %});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://www.rajdhanicars.in/">Rajdhanicars</a></h3>
+										<span>www.Rajdhanicars.com</span>
+										<p class="icon">
+											<span><a href="#"><i class="fa fa-facebook"></i></a></span>
+											<span><a href="#"><i class="fa fa-twitter"></i></a></span>
+											<span><a href="#"><i class="fa fa-instagram"></i></a></span>
+											<span><a href="#"><i class="fa fa-linkedin"></i></a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url({% static 'images/fitt.png' %});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="http://fitcoy.com/">Fitcoy</a></h3>
+										<span>www.Fitcoy.com</span>
+										<p class="icon">
+											<span><a href="#"><i class="fa fa-facebook"></i></a></span>
+											<span><a href="#"><i class="fa fa-twitter"></i></a></span>
+											<span><a href="#"><i class="fa fa-instagram"></i></a></span>
+											<span><a href="#"><i class="fa fa-linkedin"></i></a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url({% static 'images/go.png' %});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://www.gorurban.org/">Gorurban</a></h3>
+										<span>www.Gorurban.com</span>
+										<p class="icon">
+											<span><a href="#"><i class="fa fa-facebook"></i></a></span>
+											<span><a href="#"><i class="fa fa-twitter"></i></a></span>
+											<span><a href="#"><i class="fa fa-instagram"></i></a></span>
+											<span><a href="#"><i class="fa fa-linkedin"></i></a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url({% static 'images/aad.png' %});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://www.aadhaarcentre.org/">Aadhaarcentre</a></h3>
+										<span>www.Aadhaarcentre.com</span>
+										<p class="icon">
+											<span><a href="#"><i class="fa fa-facebook"></i></a></span>
+											<span><a href="#"><i class="fa fa-twitter"></i></a></span>
+											<span><a href="#"><i class="fa fa-instagram"></i></a></span>
+											<span><a href="#"><i class="fa fa-linkedin"></i></a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+							<div class="project" style="background-image: url({% static 'images/indi.png' %});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://indiaworldlivenews.pythonanywhere.com/">indiaworldlive news</a></h3>
+										<span>www.indiaworldlivenews.pythonanywhere.com</span>
+										<p class="icon">
+											<span><a href="#"><i class="fa fa-facebook"></i></a></span>
+											<span><a href="#"><i class="fa fa-twitter"></i></a></span>
+											<span><a href="#"><i class="fa fa-instagram"></i></a></span>
+											<span><a href="#"><i class="fa fa-linkedin"></i></a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+							<div class="project" style="background-image: url({% static 'images/reb.png' %});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://robertejendra.pythonanywhere.com/">Reebound Fitness</a></h3>
+										<span>www.robertejendra.pythonanywhere.com</span>
+										<p class="icon">
+											<span><a href="#"><i class="fa fa-facebook"></i></a></span>
+											<span><a href="#"><i class="fa fa-twitter"></i></a></span>
+											<span><a href="#"><i class="fa fa-instagram"></i></a></span>
+											<span><a href="#"><i class="fa fa-linkedin"></i></a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+
+<!--			<section class="colorlib-blog" data-section="blog">-->
+<!--				<div class="colorlib-narrow-content">-->
+<!--					<div class="row">-->
+<!--						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">-->
+<!--							<span class="heading-meta">Read</span>-->
+<!--							<h2 class="colorlib-heading">Recent Blog</h2>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="row">-->
+<!--						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">-->
+<!--							<div class="blog-entry">-->
+<!--								<a href="blog.html" class="blog-img"><img src="{% static 'images/blog-1.jpg' %}" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>-->
+<!--								<div class="desc">-->
+<!--									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>-->
+<!--									<h3><a href="blog.html">Renovating National Gallery</a></h3>-->
+<!--									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">-->
+<!--							<div class="blog-entry">-->
+<!--								<a href="blog.html" class="blog-img"><img src="{% static 'images/blog-2.jpg' %}" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>-->
+<!--								<div class="desc">-->
+<!--									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>-->
+<!--									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>-->
+<!--									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">-->
+<!--							<div class="blog-entry">-->
+<!--								<a href="blog.html" class="blog-img"><img src="{% static 'images/blog-3.jpg' %}" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>-->
+<!--								<div class="desc">-->
+<!--									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>-->
+<!--									<h3><a href="blog.html">Make website from scratch</a></h3>-->
+<!--									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="row">-->
+<!--						<div class="col-md-12 animate-box">-->
+<!--							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</section>-->
+
+			<section class="colorlib-contact" data-section="contact" id="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contact</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i > <img src="{% static 'images/gmail.png' %}" style="width:35%;"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>tejendrapatel1998@gmail.com</p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i > <img src="{% static 'images/address.png' %}" style="width:35%;"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>43/A Bhel Nagar Ayodhya By Pass Road Bhopal</p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i > <img src="{% static 'images/telephone.png' %}" style="width:35%;"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>+91 7389 258 396 </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+									<form action="" method="POST">
+										{% csrf_token %}
+										<div class="form-group">
+											<input type="text" name="name" class="form-control" placeholder="Name">
+										</div>
+										<div class="form-group">
+											<input type="text" name="email" class="form-control" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<input type="text" name="subject" class="form-control" placeholder="Subject">
+										</div>
+										<div class="form-group">
+											<textarea name="message" class="form-control" placeholder="Message"></textarea>
+										</div>
+										<div class="form-group">
+											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+										</div>
+									</form>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="{% static 'js/jquery.min.js' %}"></script>
+	<!-- jQuery Easing -->
+	<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+	<!-- Bootstrap -->
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<!-- Waypoints -->
+	<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+	<!-- Flexslider -->
+	<script src="{% static 'js/jquery.flexslider-min.js' %}"></script>
+	<!-- Owl carousel -->
+	<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+	<!-- Counters -->
+	<script src="{% static 'js/jquery.countTo.js' %}"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="{% static 'js/main.js' %}"></script>
+
+	</body>
+</html>
+
